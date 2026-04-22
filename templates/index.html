@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Air Canvas</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+    background:#050510;
+    color:white;
+    font-family:'Syne',sans-serif;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+/* NAV */
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 60px;
+    border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+.nav-logo{
+    font-family:'Bebas Neue';
+    font-size:2rem;
+    letter-spacing:3px;
+    color:#5b5bff;
+}
+
+/* HERO */
+.hero{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+/* TAG */
+.tag{
+    border:1px solid #00ffd5;
+    padding:6px 14px;
+    border-radius:50px;
+    font-size:12px;
+    margin-bottom:30px;
+    color:#00ffd5;
+}
+
+/* TITLE */
+h1{
+    font-family:'Bebas Neue';
+    font-size:120px;
+    line-height:0.9;
+}
+
+.gradient{
+    background: linear-gradient(90deg,#6a5cff,#ff3bab,#00ffd5);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+/* SUBTEXT */
+p{
+    margin-top:20px;
+    max-width:500px;
+    color:#aaa;
+    font-size:16px;
+}
+
+/* BUTTON */
+button{
+    margin-top:40px;
+    padding:16px 40px;
+    font-size:16px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    background:linear-gradient(135deg,#6a5cff,#ff3bab);
+    color:white;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="nav-logo">AIR CANVAS</div>
+</nav>
+
+<section class="hero">
+
+    <div class="tag">• NO TOUCH REQUIRED</div>
+
+    <h1>
+        AIR <br>
+        <span class="gradient">CANVAS</span>
+    </h1>
+
+    <p>
+        Paint, draw, and create with nothing but your bare hand.
+        Powered by computer vision — zero hardware, zero stylus, zero limits.
+    </p>
+
+    <button onclick="startCanvas()">✋ Start Drawing</button>
+
+</section>
+
+<script>
+function startCanvas(){
+    fetch('/start')
+    .then(res=>res.text())
+    .then(data=>{
+        alert("Camera Started ✋");
+    })
+    .catch(err=>{
+        console.error(err);
+    });
+}
+</script>
+
+</body>
+</html>
