@@ -1,19 +1,18 @@
-✋ Air Canvas Ultra Pro: Gesture-Based Virtual Drawing System
+## ✋ Air Canvas Ultra Pro: Gesture-Based Virtual Drawing System
 
----
 
 Air Canvas Ultra Pro is an advanced computer vision–based application that enables users to draw, paint, and interact with a digital canvas using only hand gestures—no mouse, stylus, or touch input required.
 
 ---
 
-📌 Project Overview
+## 📌 Project Overview
 
 Air Canvas Ultra Pro uses real-time hand tracking to convert finger movements into drawing actions. By leveraging computer vision and gesture recognition, the system creates an intuitive and touch-free drawing experience.
 The application supports multiple tools, shapes, colors, and gesture-based controls, making it a powerful virtual drawing system.
 
 ---
 
-🎯 Key Features
+## 🎯 Key Features
 
 ✋ Hand Gesture Recognition – Detects and tracks hand landmarks using MediaPipe
 
@@ -37,7 +36,7 @@ The application supports multiple tools, shapes, colors, and gesture-based contr
 
 ---
 
-🏗️ System Architecture
+## 🏗️ System Architecture
 
 The system follows this pipeline:
 
@@ -57,7 +56,7 @@ The system follows this pipeline:
 
 ---
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 Frontend:
 
@@ -83,7 +82,7 @@ Data Handling:
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
 AIRCANVAS...
 │
@@ -95,7 +94,7 @@ AIRCANVAS...
 
 ---
 
-🎮 Gesture Controls
+## 🎮 Gesture Controls
 
 Gesture	Action
 
@@ -109,7 +108,7 @@ Gesture	Action
 
 ---
 
-⌨️ Keyboard Shortcuts
+## ⌨️ Keyboard Shortcuts
 
 Key	Function
 
@@ -117,12 +116,12 @@ ESC	Exit
 
 ---
 
-📸 Screenshots
+## 📸 Screenshots
  <img width="958" height="468" alt="image" src="https://github.com/user-attachments/assets/cb2f6c17-d2d7-46d4-9ccb-99e7c49dc251" />
 
 ---
 
-⚠️ Limitations
+## ⚠️ Limitations
 
 - Requires a webcam for operation
 
@@ -136,7 +135,7 @@ ESC	Exit
 
 ---
 
-🚀 Future Scope
+## 🚀 Future Scope
 
 - AI-based gesture recognition improvement
 
@@ -154,7 +153,7 @@ ESC	Exit
 
 ---
 
-👩‍💻 Contributors
+## 👩‍💻 Contributors
 
 R.P.Tanishqa Menon
 
@@ -166,6 +165,6 @@ Noor Fathima
 
 ---
 
-📜 License
+## 📜 License
 
 This project is developed for academic and learning purposes.
