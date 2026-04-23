@@ -33,43 +33,43 @@ The application supports multiple tools, shapes, colors, and gesture-based contr
 
 The system follows this pipeline:
 
-Capture video from webcam
+• Capture video from webcam
 
-Detect hand landmarks using MediaPipe
+• Detect hand landmarks using MediaPipe
 
-Identify finger gestures
+• Identify finger gestures
 
-Map gestures to drawing actions
+• Map gestures to drawing actions
 
-Render drawings on virtual canvas
+• Render drawings on virtual canvas
 
-Overlay UI (tools, colors, controls)
+• Overlay UI (tools, colors, controls)
 
-Display final output in real-time
+• Display final output in real-time
 
 🛠️ Technologies Used
 
 Frontend:
 
-HTML
+• HTML
 
-CSS
+• CSS
 
-JavaScript
+• JavaScript
 
 Backend:
 
-Python (Flask)
+• Python (Flask)
 
 Computer Vision:
 
-OpenCV
+• OpenCV
 
-MediaPipe
+• MediaPipe
 
 Data Handling:
 
-NumPy
+• NumPy
 
 📂 Project Structure
 
@@ -85,15 +85,16 @@ AIRCANVAS...
 
 Gesture	Action
 
-☝ 1 Finger	Draw / Erase / Drag
+• ☝ 1 Finger	Draw / Erase / Drag
 
-✌ 2 Fingers	Select tool / UI
+• ✌ 2 Fingers	Select tool / UI
 
-🤌 3-Finger Pinch	Resize brush/eraser
+• 🤌  3-Finger Pinch	Resize brush/eraser
 
-✋ No Hand	Idle
+• ✋  No Hand	Idle
 
 ⌨️ Keyboard Shortcuts
+
 Key	Function
 
 ESC	Exit
@@ -105,31 +106,31 @@ ESC	Exit
 
 ⚠️ Limitations
 
-Requires a webcam for operation
+• Requires a webcam for operation
 
-Works best in good lighting conditions
+• Works best in good lighting conditions
 
-No multi-user support
+• No multi-user support
 
-Limited gesture set
+• Limited gesture set
 
-No cloud save or sharing
+• No cloud save or sharing
 
 🚀 Future Scope
 
-AI-based gesture recognition improvement
+• AI-based gesture recognition improvement
 
-Multi-hand support
+• Multi-hand support
 
-Mobile app integration
+• Mobile app integration
 
-Cloud storage for drawings
+• Cloud storage for drawings
 
-Voice command integration
+• Voice command integration
 
-Advanced shape recognition (freehand → perfect shapes)
+• Advanced shape recognition (freehand → perfect shapes)
 
-Collaboration (multi-user drawing)
+• Collaboration (multi-user drawing)
 
 👩‍💻 Contributors
 
