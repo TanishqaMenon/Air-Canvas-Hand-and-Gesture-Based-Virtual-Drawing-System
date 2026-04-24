@@ -98,7 +98,7 @@ AIRCANVAS...
 
 Gesture	Action
 
-- ☝ 1 Finger	Draw / Erase / Drag
+- ☝ 1 Finger	Draw / Erase
 
 - ✌ 2 Fingers	Select tool / UI
 
